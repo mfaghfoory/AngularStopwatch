@@ -9,7 +9,7 @@ export class AppComponent {
   millisecond = '000';
   second = '00';
   minute = '00';
-  timer: NodeJS.Timer;
+  timer: any = null;
 
   startTimer() {
     let innerSecond = 0;

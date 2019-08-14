@@ -1,0 +1,18 @@
+<div class="parent">
+  <div class="parentClock">
+    <div class="clockBox">
+      {{ minute }}
+    </div>
+    <div class="clockBox">
+      {{ second }}
+    </div>
+    <div class="clockBox">
+      {{ millisecond }}
+    </div>
+  </div>
+  <div class="commands">
+    <button class="button" (click)="startTimer()">Start</button>
+    <button class="button" (click)="stopTimer()">Stop</button>
+    <button class="button" (click)="resetTimer()">Reset</button>
+  </div>
+</div>
